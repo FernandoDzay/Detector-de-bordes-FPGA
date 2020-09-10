@@ -1,0 +1,8 @@
+[Inputs]
+Pulse
+[Outputs]
+NineBitsDone
+[BiDir]
+[ATTRIBUTES]
+VeriModel CountTo9
+

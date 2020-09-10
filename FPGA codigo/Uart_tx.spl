@@ -1,0 +1,12 @@
+[Inputs]
+i_Clock
+i_Tx_DV
+=i_Tx_Byte[7:0]=
+[Outputs]
+o_Tx_Active
+o_Tx_Serial
+o_Tx_Done
+[BiDir]
+[ATTRIBUTES]
+VeriModel Uart_tx
+

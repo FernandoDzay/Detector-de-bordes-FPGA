@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "Uart_rx.ngc" Uart_rx.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Uart_rx_map.ncd Uart_rx.ngd Uart_rx.pcf 
+par -w -intstyle ise -ol high -t 1 Uart_rx_map.ncd Uart_rx.ncd Uart_rx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Uart_rx.twx Uart_rx.ncd -o Uart_rx.twr Uart_rx.pcf 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.v} -lang verilog -prj Proyecto -o Uart_rx.spl -module Uart_rx -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Uart_rx.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.v} -lang verilog -prj Proyecto -o Uart_rx.spl -module Uart_rx -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Uart_rx.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_rx.sym} 

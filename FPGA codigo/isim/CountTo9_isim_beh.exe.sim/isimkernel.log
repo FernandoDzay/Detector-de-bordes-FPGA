@@ -1,0 +1,29 @@
+Command line:
+   CountTo9_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49658
+
+Mon Nov 25 17:59:09 2019
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 670.298 Meg
+
+ Total Signals          : 14
+ Total Nets             : 15
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 100
+Total Line Count : 23
+
+ Total Simulation Time: 0.717604 sec
+
+ Current Memory Usage: 670.298 Meg
+
+Mon Nov 25 18:03:39 2019
+

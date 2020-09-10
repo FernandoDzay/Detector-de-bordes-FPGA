@@ -1,0 +1,19 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Escalamiento_isim_beh.exe -prj C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Escalamiento_beh.prj work.Escalamiento work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Escalamiento.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Escalamiento.v" Line 6: Redeclaration of ansi port truncamiento is not allowed
+WARNING:HDLCompiler:489 - "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Escalamiento.v" Line 3: Illegal initial value of output port truncamiento for module Escalamiento ignored
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Escalamiento
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 2 Verilog Units
+Built simulation executable C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Escalamiento_isim_beh.exe
+Fuse Memory Usage: 28376 KB
+Fuse CPU Usage: 483 ms

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\And.ncd
+OUTFILE=C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\And.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto
+LICENSE=WebPack
+USER_INFO=211394928_0_0_978

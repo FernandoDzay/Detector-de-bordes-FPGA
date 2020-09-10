@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_tx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_tx.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_tx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_tx.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_tx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_tx.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_tx.v} -lang verilog -prj Proyecto -o Uart_tx.spl -module Uart_tx -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Uart_tx.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_tx.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Uart_tx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Uart_tx.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Uart_tx.v} -lang verilog -prj Proyecto -o Uart_tx.spl -module Uart_tx -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Uart_tx.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Uart_tx.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_tx.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_tx.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_tx.v} -lang verilog -prj Proyecto -o Uart_tx.spl -module Uart_tx -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Uart_tx.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Uart_tx.sym} 

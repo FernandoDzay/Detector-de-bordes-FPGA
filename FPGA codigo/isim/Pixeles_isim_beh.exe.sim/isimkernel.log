@@ -1,0 +1,29 @@
+Command line:
+   Pixeles_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49612
+
+Mon Nov 25 16:46:50 2019
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 670.298 Meg
+
+ Total Signals          : 16
+ Total Nets             : 47
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 175
+Total Line Count : 20
+
+ Total Simulation Time: 0.592803 sec
+
+ Current Memory Usage: 670.298 Meg
+
+Mon Nov 25 17:40:26 2019
+

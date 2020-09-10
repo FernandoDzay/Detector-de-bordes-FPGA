@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Escalamiento_isim_beh.exe" -prj "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Escalamiento_beh.prj" "work.Escalamiento" "work.glbl" 

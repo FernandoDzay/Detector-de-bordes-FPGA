@@ -1,0 +1,8 @@
+
+#inputs
+NET "a" LOC = T10;
+NET "b" LOC = T9;
+
+
+#outputs
+NET "f" LOC = JC1;

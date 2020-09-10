@@ -1,0 +1,29 @@
+Command line:
+   Escalamiento_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49541
+
+Tue Dec 03 15:24:58 2019
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 670.298 Meg
+
+ Total Signals          : 19
+ Total Nets             : 103
+ Total Signal Drivers   : 10
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 183
+Total Line Count : 19
+
+ Total Simulation Time: 0.0936 sec
+
+ Current Memory Usage: 670.298 Meg
+
+Tue Dec 03 15:27:06 2019
+

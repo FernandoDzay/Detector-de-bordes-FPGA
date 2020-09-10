@@ -1,0 +1,8 @@
+[Inputs]
+=pixeles[71:0]=
+[Outputs]
+=escalar[10:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Convolution
+

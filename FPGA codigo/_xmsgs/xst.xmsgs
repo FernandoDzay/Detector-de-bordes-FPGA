@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="new" >"C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Escalamiento.v" Line 6: Redeclaration of ansi port <arg fmt="%s" index="1">truncamiento</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="489" delta="new" >"C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Escalamiento.v" Line 3: Illegal initial value of <arg fmt="%s" index="1">output</arg> port <arg fmt="%s" index="2">truncamiento</arg> for <arg fmt="%s" index="3">module</arg> <arg fmt="%s" index="4">Escalamiento</arg> ignored
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="new" >"C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Convolution.v" Line 8: Redeclaration of ansi port <arg fmt="%s" index="1">escalar</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 68: Result of <arg fmt="%d" index="1">15</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 79: Result of <arg fmt="%d" index="1">15</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 90: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 108: Result of <arg fmt="%d" index="1">15</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\CountTo9.v" Line 13: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 55: Result of <arg fmt="%d" index="1">15</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 73: Result of <arg fmt="%d" index="1">15</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 83: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 103: Result of <arg fmt="%d" index="1">15</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">14</arg>-bit target.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Procesamiento.vf</arg>&quot; line <arg fmt="%s" index="2">58</arg>: Output port &lt;<arg fmt="%s" index="3">o_Tx_Active</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_14</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Procesamiento.vf</arg>&quot; line <arg fmt="%s" index="2">58</arg>: Output port &lt;<arg fmt="%s" index="3">o_Tx_Done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_14</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">pixeles&lt;15:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">pixeles&lt;39:32&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">pixeles&lt;63:56&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_33</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_34</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_35</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_36</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_37</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_38</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_39</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_56</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_57</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_58</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_59</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_60</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_61</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_62</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">o_Pixeles_63</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_14/r_Tx_Active</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_14/r_Tx_Done</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_63</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_62</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_61</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_60</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_59</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_58</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_57</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_56</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_39</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_38</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_37</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_36</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_35</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_34</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_33</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">XLXI_11/o_Pixeles_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_14/r_Clock_Count_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Procesamiento</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_14/r_Clock_Count_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Procesamiento</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_14/r_Clock_Count_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Procesamiento</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">XLXI_14/r_Clock_Count_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Procesamiento</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">XLXI_1/r_SM_Main_FSM_FFd1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Procesamiento</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;XLXI_1/r_Rx_DV&gt; </arg>
+</msg>
+
+</messages>
+

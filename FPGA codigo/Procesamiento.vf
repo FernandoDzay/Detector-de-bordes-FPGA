@@ -1,0 +1,68 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Procesamiento.vf
+// /___/   /\     Timestamp : 12/03/2019 16:15:41
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.vf" -w "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.sch"
+//Design Name: Procesamiento
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Procesamiento(clk, 
+                     rx, 
+                     Byte, 
+                     tx);
+
+    input clk;
+    input rx;
+   output [7:0] Byte;
+   output tx;
+   
+   wire btn;
+   wire Interrupt;
+   wire XLXN_9;
+   wire XLXN_10;
+   wire [71:0] XLXN_16;
+   wire [7:0] XLXN_21;
+   wire [10:0] XLXN_22;
+   wire [7:0] Byte_DUMMY;
+   
+   assign Byte[7:0] = Byte_DUMMY[7:0];
+   Uart_rx  XLXI_1 (.i_Clock(XLXN_9), 
+                   .i_Rx_Serial(rx), 
+                   .o_Rx_Byte(Byte_DUMMY[7:0]), 
+                   .o_Rx_DV(Interrupt));
+   BUFH  XLXI_8 (.I(clk), 
+                .O(XLXN_9));
+   Pulse  XLXI_9 (.Boton(btn), 
+                 .clk(XLXN_9), 
+                 .Pulse(XLXN_10));
+   CountTo9  XLXI_10 (.Pulse(Interrupt), 
+                     .NineBitsDone(btn));
+   Pixeles  XLXI_11 (.Capture(Interrupt), 
+                    .i_Pixel(Byte_DUMMY[7:0]), 
+                    .Send(btn), 
+                    .o_Pixeles(XLXN_16[71:0]));
+   Uart_tx  XLXI_14 (.i_Clock(XLXN_9), 
+                    .i_Tx_Byte(XLXN_21[7:0]), 
+                    .i_Tx_DV(XLXN_10), 
+                    .o_Tx_Active(), 
+                    .o_Tx_Done(), 
+                    .o_Tx_Serial(tx));
+   Convolution  XLXI_16 (.pixeles(XLXN_16[71:0]), 
+                        .escalar(XLXN_22[10:0]));
+   Escalamiento  XLXI_17 (.escalar(XLXN_22[10:0]), 
+                         .truncamiento(XLXN_21[7:0]));
+endmodule

@@ -1,0 +1,8 @@
+verilog work "Uart_tx.v"
+verilog work "Uart_rx.v"
+verilog work "Pulse.v"
+verilog work "Pixeles.v"
+verilog work "Escalamiento.v"
+verilog work "CountTo9.v"
+verilog work "Convolution.v"
+verilog work "Procesamiento.vf"

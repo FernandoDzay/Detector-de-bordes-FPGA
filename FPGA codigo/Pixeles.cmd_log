@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.v} -lang verilog -prj Proyecto -o Pixeles.spl -module Pixeles -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Pixeles.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Pixeles.sym} 

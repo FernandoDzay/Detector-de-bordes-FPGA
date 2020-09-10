@@ -1,0 +1,9 @@
+[Inputs]
+clk
+Boton
+[Outputs]
+Pulse
+[BiDir]
+[ATTRIBUTES]
+VeriModel Pulse
+

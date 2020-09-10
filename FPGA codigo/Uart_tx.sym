@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Uart_tx">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2019-12-3T22:15:9</timestamp>
+    <attr value="Uart_tx" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-160" name="i_Clock" />
+    <pin polarity="Input" x="0" y="-96" name="i_Tx_DV" />
+    <pin polarity="Input" x="0" y="-32" name="i_Tx_Byte(7:0)" />
+    <pin polarity="Output" x="432" y="-160" name="o_Tx_Active" />
+    <pin polarity="Output" x="432" y="-96" name="o_Tx_Serial" />
+    <pin polarity="Output" x="432" y="-32" name="o_Tx_Done" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="216" y="-200" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin i_Clock" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin i_Tx_DV" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin i_Tx_Byte(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-160" type="pin o_Tx_Active" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-96" type="pin o_Tx_Serial" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-32" type="pin o_Tx_Done" />
+        <rect width="304" x="64" y="-192" height="192" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="432" y1="-160" y2="-160" x1="368" />
+        <line x2="432" y1="-96" y2="-96" x1="368" />
+        <line x2="432" y1="-32" y2="-32" x1="368" />
+    </graph>
+</symbol>

@@ -1,0 +1,131 @@
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -t 1 Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+sch2sym -intstyle ise -family spartan6 -refsym Procesamiento {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.sch} {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Procesamiento.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 "Procesamiento.ngc" Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 Procesamiento.ngc Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 Procesamiento.ngc Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ProcesamientoProg.ucf -p xc6slx16-csg324-3 Procesamiento.ngc Procesamiento.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Procesamiento_map.ncd Procesamiento.ngd Procesamiento.pcf 
+par -w -intstyle ise -ol high -mt off Procesamiento_map.ncd Procesamiento.ncd Procesamiento.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesamiento.twx Procesamiento.ncd -o Procesamiento.twr Procesamiento.pcf -ucf ProcesamientoProg.ucf 
+bitgen -intstyle ise -f Procesamiento.ut Procesamiento.ncd 

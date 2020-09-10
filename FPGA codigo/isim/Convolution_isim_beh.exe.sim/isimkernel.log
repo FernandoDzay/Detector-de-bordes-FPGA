@@ -1,0 +1,29 @@
+Command line:
+   Convolution_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49538
+
+Tue Dec 03 15:15:05 2019
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 670.302 Meg
+
+ Total Signals          : 39
+ Total Nets             : 503
+ Total Signal Drivers   : 30
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 31
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 583
+Total Line Count : 39
+
+ Total Simulation Time: 0.156001 sec
+
+ Current Memory Usage: 984.875 Meg
+
+Tue Dec 03 15:16:19 2019
+

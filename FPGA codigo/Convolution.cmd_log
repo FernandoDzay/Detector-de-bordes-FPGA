@@ -1,0 +1,62 @@
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Convolution.sym} 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Respaldo/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+xst -intstyle ise -ifn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.xst" -ofn "C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.syr" 
+vhdtdtfi -lib work {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.v} -lang verilog -prj Proyecto -o Convolution.spl -module Convolution -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Convolution.spl {C:/Users/Fernando/Desktop/Nueva carpeta/Proyecto/Convolution.sym} 

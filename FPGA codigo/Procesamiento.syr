@@ -1,0 +1,805 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: Procesamiento.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Procesamiento.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Procesamiento"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Procesamiento
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" into library work
+Parsing module <Uart_tx>.
+INFO:HDLCompiler:693 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 12. parameter declaration becomes local in Uart_tx with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 13. parameter declaration becomes local in Uart_tx with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 14. parameter declaration becomes local in Uart_tx with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 15. parameter declaration becomes local in Uart_tx with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 16. parameter declaration becomes local in Uart_tx with formal parameter declaration list
+Analyzing Verilog file "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" into library work
+Parsing module <Uart_rx>.
+INFO:HDLCompiler:693 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 11. parameter declaration becomes local in Uart_rx with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 12. parameter declaration becomes local in Uart_rx with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 13. parameter declaration becomes local in Uart_rx with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 14. parameter declaration becomes local in Uart_rx with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 15. parameter declaration becomes local in Uart_rx with formal parameter declaration list
+Analyzing Verilog file "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Pulse.v" into library work
+Parsing module <Pulse>.
+Analyzing Verilog file "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Pixeles.v" into library work
+Parsing module <Pixeles>.
+Analyzing Verilog file "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Escalamiento.v" into library work
+Parsing module <Escalamiento>.
+WARNING:HDLCompiler:751 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Escalamiento.v" Line 6: Redeclaration of ansi port truncamiento is not allowed
+WARNING:HDLCompiler:489 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Escalamiento.v" Line 3: Illegal initial value of output port truncamiento for module Escalamiento ignored
+Analyzing Verilog file "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\CountTo9.v" into library work
+Parsing module <CountTo9>.
+Analyzing Verilog file "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Convolution.v" into library work
+Parsing module <Convolution>.
+WARNING:HDLCompiler:751 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Convolution.v" Line 8: Redeclaration of ansi port escalar is not allowed
+Analyzing Verilog file "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Procesamiento.vf" into library work
+Parsing module <Procesamiento>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Procesamiento>.
+
+Elaborating module <Uart_rx>.
+WARNING:HDLCompiler:413 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 68: Result of 15-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 79: Result of 15-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 90: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v" Line 108: Result of 15-bit expression is truncated to fit in 14-bit target.
+
+Elaborating module <BUFH>.
+
+Elaborating module <Pulse>.
+
+Elaborating module <CountTo9>.
+WARNING:HDLCompiler:413 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\CountTo9.v" Line 13: Result of 5-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <Pixeles>.
+
+Elaborating module <Uart_tx>.
+WARNING:HDLCompiler:413 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 55: Result of 15-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 73: Result of 15-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 83: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v" Line 103: Result of 15-bit expression is truncated to fit in 14-bit target.
+
+Elaborating module <Convolution>.
+
+Elaborating module <Escalamiento>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Procesamiento>.
+    Related source file is "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Procesamiento.vf".
+INFO:Xst:3210 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Procesamiento.vf" line 58: Output port <o_Tx_Active> of the instance <XLXI_14> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Procesamiento.vf" line 58: Output port <o_Tx_Done> of the instance <XLXI_14> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Procesamiento> synthesized.
+
+Synthesizing Unit <Uart_rx>.
+    Related source file is "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_rx.v".
+        CLKS_PER_BIT = 868
+    Found 1-bit register for signal <r_Rx_Data>.
+    Found 3-bit register for signal <r_SM_Main>.
+    Found 1-bit register for signal <r_Rx_DV>.
+    Found 14-bit register for signal <r_Clock_Count>.
+    Found 1-bit register for signal <r_Rx_Byte<7>>.
+    Found 1-bit register for signal <r_Rx_Byte<6>>.
+    Found 1-bit register for signal <r_Rx_Byte<5>>.
+    Found 1-bit register for signal <r_Rx_Byte<4>>.
+    Found 1-bit register for signal <r_Rx_Byte<3>>.
+    Found 1-bit register for signal <r_Rx_Byte<2>>.
+    Found 1-bit register for signal <r_Rx_Byte<1>>.
+    Found 1-bit register for signal <r_Rx_Byte<0>>.
+    Found 3-bit register for signal <r_Bit_Index>.
+    Found 1-bit register for signal <r_Rx_Data_R>.
+    Found finite state machine <FSM_0> for signal <r_SM_Main>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | i_Clock (rising_edge)                          |
+    | Power Up State     | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit adder for signal <r_Bit_Index[2]_GND_2_o_add_15_OUT> created at line 90.
+    Found 14-bit adder for signal <r_Clock_Count[13]_GND_2_o_add_23_OUT> created at line 108.
+    Found 3-bit comparator greater for signal <r_Bit_Index[2]_PWR_2_o_LessThan_15_o> created at line 88
+    Found 14-bit comparator greater for signal <r_Clock_Count[13]_GND_2_o_LessThan_23_o> created at line 106
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  28 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   6 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <Uart_rx> synthesized.
+
+Synthesizing Unit <Pulse>.
+    Related source file is "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Pulse.v".
+        IDLE = 2'b00
+        RISING = 2'b01
+        FALLING = 2'b10
+    Found 1-bit register for signal <rpulse>.
+    Found 2-bit register for signal <state>.
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <Pulse> synthesized.
+
+Synthesizing Unit <CountTo9>.
+    Related source file is "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\CountTo9.v".
+    Found 4-bit register for signal <count>.
+    Found 1-bit register for signal <NineBitsDone>.
+    Found 4-bit adder for signal <count[3]_GND_5_o_add_2_OUT> created at line 13.
+    Found 4-bit comparator greater for signal <count[3]_PWR_6_o_LessThan_2_o> created at line 10
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <CountTo9> synthesized.
+
+Synthesizing Unit <Pixeles>.
+    Related source file is "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Pixeles.v".
+    Found 72-bit register for signal <o_Pixeles>.
+    Found 72-bit register for signal <r_Pixeles>.
+    Summary:
+	inferred 144 D-type flip-flop(s).
+Unit <Pixeles> synthesized.
+
+Synthesizing Unit <Uart_tx>.
+    Related source file is "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Uart_tx.v".
+        CLKS_PER_BIT = 868
+    Found 1-bit register for signal <r_Tx_Done>.
+    Found 1-bit register for signal <o_Tx_Serial>.
+    Found 14-bit register for signal <r_Clock_Count>.
+    Found 1-bit register for signal <r_Tx_Active>.
+    Found 3-bit register for signal <r_Bit_Index>.
+    Found 8-bit register for signal <r_Tx_Data>.
+    Found 3-bit register for signal <r_SM_Main>.
+    Found finite state machine <FSM_2> for signal <r_SM_Main>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 6                                              |
+    | Clock              | i_Clock (rising_edge)                          |
+    | Power Up State     | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit adder for signal <r_Bit_Index[2]_GND_7_o_add_12_OUT> created at line 83.
+    Found 14-bit adder for signal <r_Clock_Count[13]_GND_7_o_add_19_OUT> created at line 103.
+    Found 1-bit 8-to-1 multiplexer for signal <r_Bit_Index[2]_r_Tx_Data[7]_Mux_8_o> created at line 69.
+    Found 3-bit comparator greater for signal <r_Bit_Index[2]_PWR_8_o_LessThan_12_o> created at line 81
+    Found 14-bit comparator greater for signal <r_Clock_Count[13]_GND_7_o_LessThan_19_o> created at line 101
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  28 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   8 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <Uart_tx> synthesized.
+
+Synthesizing Unit <Convolution>.
+    Related source file is "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Convolution.v".
+WARNING:Xst:647 - Input <pixeles<15:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <pixeles<39:32>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <pixeles<63:56>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 22-bit adder for signal <_n0107> created at line 39.
+    Found 22-bit adder for signal <_n0108> created at line 39.
+    Found 22-bit subtractor for signal <_n0109> created at line 39.
+    Found 22-bit subtractor for signal <_n0110> created at line 39.
+    Found 22-bit adder for signal <escalar2> created at line 39.
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+Unit <Convolution> synthesized.
+
+Synthesizing Unit <Escalamiento>.
+    Related source file is "C:\Users\Fernando\Desktop\Nueva carpeta\Proyecto\Escalamiento.v".
+    Found 11-bit adder for signal <temp> created at line 8.
+    Found 15x15-bit multiplier for signal <operacion> created at line 14.
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Escalamiento> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 15x15-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 11
+ 11-bit adder                                          : 1
+ 14-bit adder                                          : 2
+ 22-bit adder                                          : 3
+ 22-bit subtractor                                     : 2
+ 3-bit adder                                           : 2
+ 4-bit adder                                           : 1
+# Registers                                            : 24
+ 1-bit register                                        : 16
+ 14-bit register                                       : 2
+ 3-bit register                                        : 2
+ 4-bit register                                        : 1
+ 72-bit register                                       : 2
+ 8-bit register                                        : 1
+# Comparators                                          : 5
+ 14-bit comparator greater                             : 2
+ 3-bit comparator greater                              : 2
+ 4-bit comparator greater                              : 1
+# Multiplexers                                         : 14
+ 1-bit 2-to-1 multiplexer                              : 2
+ 1-bit 8-to-1 multiplexer                              : 1
+ 14-bit 2-to-1 multiplexer                             : 7
+ 3-bit 2-to-1 multiplexer                              : 4
+# FSMs                                                 : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2677 - Node <o_Pixeles_8> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_9> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_10> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_11> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_12> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_13> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_14> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_15> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_32> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_33> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_34> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_35> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_36> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_37> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_38> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_39> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_56> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_57> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_58> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_59> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_60> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_61> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_62> of sequential type is unconnected in block <XLXI_11>.
+WARNING:Xst:2677 - Node <o_Pixeles_63> of sequential type is unconnected in block <XLXI_11>.
+
+Synthesizing (advanced) Unit <Convolution>.
+	The following adders/subtractors are grouped into adder tree <Madd_escalar2_Madd1> :
+ 	<Madd__n0107_Madd> in block <Convolution>, 	<Msub__n0109_Madd> in block <Convolution>, 	<Madd__n0108_Madd> in block <Convolution>.
+Unit <Convolution> synthesized (advanced).
+
+Synthesizing (advanced) Unit <CountTo9>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <CountTo9> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 13x12-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 5
+ 11-bit adder                                          : 1
+ 14-bit adder                                          : 2
+ 3-bit adder                                           : 2
+# Adder Trees                                          : 1
+ 18-bit / 6-inputs adder tree                          : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 202
+ Flip-Flops                                            : 202
+# Comparators                                          : 5
+ 14-bit comparator greater                             : 2
+ 3-bit comparator greater                              : 2
+ 4-bit comparator greater                              : 1
+# Multiplexers                                         : 14
+ 1-bit 2-to-1 multiplexer                              : 2
+ 1-bit 8-to-1 multiplexer                              : 1
+ 14-bit 2-to-1 multiplexer                             : 7
+ 3-bit 2-to-1 multiplexer                              : 4
+# FSMs                                                 : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_1> on signal <state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <XLXI_1/FSM_0> on signal <r_SM_Main[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 010
+ 011   | 011
+ 100   | 100
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <XLXI_14/FSM_2> on signal <r_SM_Main[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 010
+ 011   | 011
+ 100   | 100
+-------------------
+
+Optimizing unit <Pixeles> ...
+
+Optimizing unit <Procesamiento> ...
+
+Optimizing unit <Uart_rx> ...
+
+Optimizing unit <Uart_tx> ...
+WARNING:Xst:2677 - Node <XLXI_14/r_Tx_Active> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_14/r_Tx_Done> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_63> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_62> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_61> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_60> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_59> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_58> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_57> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_56> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_39> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_38> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_37> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_36> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_35> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_34> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_33> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_32> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_15> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_14> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_13> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_12> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_11> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_10> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_9> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:2677 - Node <XLXI_11/o_Pixeles_8> of sequential type is unconnected in block <Procesamiento>.
+WARNING:Xst:1293 - FF/Latch <XLXI_14/r_Clock_Count_13> has a constant value of 0 in block <Procesamiento>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_14/r_Clock_Count_12> has a constant value of 0 in block <Procesamiento>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_14/r_Clock_Count_11> has a constant value of 0 in block <Procesamiento>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_14/r_Clock_Count_10> has a constant value of 0 in block <Procesamiento>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <XLXI_1/r_SM_Main_FSM_FFd1> in Unit <Procesamiento> is equivalent to the following FF/Latch, which will be removed : <XLXI_1/r_Rx_DV> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Procesamiento, actual ratio is 3.
+FlipFlop XLXI_1/r_SM_Main_FSM_FFd1 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <Procesamiento> :
+	Found 2-bit shift register for signal <XLXI_1/r_Rx_Data>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_55>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_54>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_53>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_52>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_51>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_50>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_49>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_48>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_31>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_30>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_29>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_28>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_27>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_26>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_25>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_24>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_7>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_6>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_5>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_4>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_3>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_2>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_1>.
+	Found 2-bit shift register for signal <XLXI_11/r_Pixeles_0>.
+Unit <Procesamiento> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 127
+ Flip-Flops                                            : 127
+# Shift Registers                                      : 25
+ 2-bit shift register                                  : 25
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Procesamiento.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 264
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 22
+#      LUT2                        : 20
+#      LUT3                        : 27
+#      LUT4                        : 40
+#      LUT5                        : 20
+#      LUT6                        : 16
+#      MUXCY                       : 53
+#      VCC                         : 1
+#      XORCY                       : 57
+# FlipFlops/Latches                : 152
+#      FD                          : 84
+#      FDE                         : 64
+#      FDR                         : 4
+# Shift Registers                  : 25
+#      SRLC16E                     : 25
+# Clock Buffers                    : 3
+#      BUFG                        : 2
+#      BUFH                        : 1
+# IO Buffers                       : 11
+#      IBUF                        : 2
+#      OBUF                        : 9
+# DSPs                             : 1
+#      DSP48A1                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             152  out of  18224     0%  
+ Number of Slice LUTs:                  177  out of   9112     1%  
+    Number used as Logic:               152  out of   9112     1%  
+    Number used as Memory:               25  out of   2176     1%  
+       Number used as SRL:               25
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    239
+   Number with an unused Flip Flop:      87  out of    239    36%  
+   Number with an unused LUT:            62  out of    239    25%  
+   Number of fully used LUT-FF pairs:    90  out of    239    37%  
+   Number of unique control sets:        12
+
+IO Utilization: 
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of    232     4%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                3  out of     16    18%  
+ Number of DSP48A1s:                      1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+XLXI_1/r_SM_Main_FSM_FFd1          | BUFG                   | 77    |
+clk                                | IBUF+BUFH              | 53    |
+XLXI_10/NineBitsDone               | BUFG                   | 48    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.980ns (Maximum Frequency: 251.266MHz)
+   Minimum input arrival time before clock: 1.801ns
+   Maximum output required time after clock: 3.668ns
+   Maximum combinational path delay: 1.222ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_1/r_SM_Main_FSM_FFd1'
+  Clock period: 2.016ns (frequency: 495.933MHz)
+  Total number of paths / destination ports: 79 / 73
+-------------------------------------------------------------------------
+Delay:               2.016ns (Levels of Logic = 1)
+  Source:            XLXI_10/count_0 (FF)
+  Destination:       XLXI_10/count_0 (FF)
+  Source Clock:      XLXI_1/r_SM_Main_FSM_FFd1 rising
+  Destination Clock: XLXI_1/r_SM_Main_FSM_FFd1 rising
+
+  Data Path: XLXI_10/count_0 to XLXI_10/count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.447   0.683  XLXI_10/count_0 (XLXI_10/count_0)
+     INV:I->O              1   0.206   0.579  XLXI_10/Mcount_count_xor<0>11_INV_0 (Result<0>)
+     FDR:D                     0.102          XLXI_10/count_0
+    ----------------------------------------
+    Total                      2.016ns (0.755ns logic, 1.261ns route)
+                                       (37.4% logic, 62.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.980ns (frequency: 251.266MHz)
+  Total number of paths / destination ports: 1472 / 91
+-------------------------------------------------------------------------
+Delay:               3.980ns (Levels of Logic = 3)
+  Source:            XLXI_1/r_Clock_Count_12 (FF)
+  Destination:       XLXI_1/r_SM_Main_FSM_FFd2 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: XLXI_1/r_Clock_Count_12 to XLXI_1/r_SM_Main_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.447   0.864  XLXI_1/r_Clock_Count_12 (XLXI_1/r_Clock_Count_12)
+     LUT4:I0->O            6   0.203   0.849  XLXI_1/GND_2_o_GND_2_o_equal_5_o<13>11 (XLXI_1/GND_2_o_GND_2_o_equal_5_o<13>1)
+     LUT6:I4->O           16   0.203   1.109  XLXI_1/GND_2_o_GND_2_o_equal_5_o<13> (XLXI_1/GND_2_o_GND_2_o_equal_5_o)
+     LUT5:I3->O            1   0.203   0.000  XLXI_1/r_SM_Main_FSM_FFd2-In1 (XLXI_1/r_SM_Main_FSM_FFd2-In)
+     FD:D                      0.102          XLXI_1/r_SM_Main_FSM_FFd2
+    ----------------------------------------
+    Total                      3.980ns (1.158ns logic, 2.822ns route)
+                                       (29.1% logic, 70.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.801ns (Levels of Logic = 1)
+  Source:            rx (PAD)
+  Destination:       XLXI_1/Mshreg_r_Rx_Data (FF)
+  Destination Clock: clk rising
+
+  Data Path: rx to XLXI_1/Mshreg_r_Rx_Data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  rx_IBUF (rx_IBUF)
+     SRLC16E:D                -0.060          XLXI_1/Mshreg_r_Rx_Data
+    ----------------------------------------
+    Total                      1.801ns (1.222ns logic, 0.579ns route)
+                                       (67.9% logic, 32.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              3.668ns (Levels of Logic = 1)
+  Source:            XLXI_1/r_Rx_Byte_7 (FF)
+  Destination:       Byte<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: XLXI_1/r_Rx_Byte_7 to Byte<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.447   0.650  XLXI_1/r_Rx_Byte_7 (XLXI_1/r_Rx_Byte_7)
+     OBUF:I->O                 2.571          Byte_7_OBUF (Byte<7>)
+    ----------------------------------------
+    Total                      3.668ns (3.018ns logic, 0.650ns route)
+                                       (82.3% logic, 17.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.222ns (Levels of Logic = 1)
+  Source:            clk (PAD)
+  Destination:       XLXI_8:I (PAD)
+
+  Data Path: clk to XLXI_8:I
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             0   1.222   0.000  clk_IBUF (clk_IBUF)
+    BUFH:I                     0.000          XLXI_8
+    ----------------------------------------
+    Total                      1.222ns (1.222ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock XLXI_1/r_SM_Main_FSM_FFd1
+-------------------------+---------+---------+---------+---------+
+                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------+---------+---------+---------+---------+
+XLXI_1/r_SM_Main_FSM_FFd1|    2.016|         |         |         |
+clk                      |    1.199|         |         |         |
+-------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock XLXI_10/NineBitsDone
+-------------------------+---------+---------+---------+---------+
+                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------+---------+---------+---------+---------+
+XLXI_1/r_SM_Main_FSM_FFd1|    1.165|         |         |         |
+-------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+-------------------------+---------+---------+---------+---------+
+                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------+---------+---------+---------+---------+
+XLXI_1/r_SM_Main_FSM_FFd1|    1.599|         |         |         |
+XLXI_10/NineBitsDone     |    8.506|         |         |         |
+clk                      |    3.980|         |         |         |
+-------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.04 secs
+ 
+--> 
+
+Total memory usage is 267740 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   69 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

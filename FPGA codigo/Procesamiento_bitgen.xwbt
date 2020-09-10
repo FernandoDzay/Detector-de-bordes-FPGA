@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\GChapur63\Desktop\Proyecto\Procesamiento.ncd
+OUTFILE=C:\Users\GChapur63\Desktop\Proyecto\Procesamiento.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\GChapur63\Desktop\Proyecto
+LICENSE=WebPack
+USER_INFO=211803109_0_0_847
